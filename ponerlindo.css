@@ -1,0 +1,15 @@
+h1 {
+    font: bold 400% cursive;
+    color: darkmagenta; 
+    font-family: 'Pacifico', cursive;
+}
+
+#cara {
+position: fixed;
+bottom: 0% ;
+right: 0%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}

@@ -1,0 +1,13 @@
+div {
+    position: float;
+}
+
+#galeria {
+max-width: 650px    
+}
+
+img {
+margin: 20px;
+padding: 5px;
+border: 1px solid gray
+}

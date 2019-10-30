@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario - Nati</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Combo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="clase 5 - letra.css">
+</head>
+<body style="background-color:lightcyan;">
+
+<h1>Formulario</h1>
+
+<form action="https://formspree.io/natalia.estigarribia86@gmail.com" method="POST">
+
+<fieldset>
+
+    <legend>Datos Personales</legend>
+        
+    <label for="Nombre">Ingrese su nombre:</label>
+    <input type="text" name="Nombre" id="Nombre" placeholder="Nombre y apellido">    
+    
+    <br><br>
+    <label for="Nombre">Indique su fecha de nacimiento:</label>
+    <input type="date" name="fecnac" id="fecnac" >    
+
+    <br><br>
+    <label for="genero">Indique su género:</label> <br>
+    <input name="genero" type="checkbox" value="Mujer"/> Mujer <br>
+    <input name="genero" type="checkbox" value="Varón"/> Varón <br>
+    <input name="genero" type="checkbox" value="Otro"/> Otro
+
+    <br><br>
+    <label for="edad">Indique su edad:</label> <br>
+    <input type="range" name="edad" id="edad" min=0 max=20>
+
+    <br><br>
+    <label for="mail">Ingrese su email:</label>
+    <input type="email" name="mail" id="mail" placeholder="Email">
+
+    <br><br>
+    <label for="Nombre">Ingrese su contraseña:</label>
+    <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+
+</fieldset>
+
+<br><br>
+
+<label for="lenguar">Indique un lenguaje:</label> <br>
+<select name="lenguaje" id="lenguaje">
+
+    <optgroup label="Fronted">
+        <option value="1">HTML</option>
+        <option value="1">CSS</option>
+        <option value="1">Java</option>
+    </optgroup>
+
+    <optgroup label="Backend">
+        <option value="1">PHP</option>
+        <option value="1">Ruby</option>
+        <option value="1">Phyton</option>
+    </optgroup>
+
+</select>
+
+
+<br><br>
+
+<label for="comentarios">Deje sus comentarios:</label> <br>
+<textarea name="comentarios" rows="5" cols="60"></textarea>
+
+<br><br>
+<label for="file">Adjuntar archivo:</label> <br>
+<input type="file" name="adjunto" /> 
+
+<br><br>
+<input type="submit" name="enviar" value="Enviar" />
+
+</form>
+
+</body>
+</html>
